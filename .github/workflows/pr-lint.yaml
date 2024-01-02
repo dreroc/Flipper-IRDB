@@ -26,7 +26,7 @@ jobs:
       # only check files changed in the PR
       - name: Get Changed Files
         id: changed-files
-        uses: tj-actions/changed-files@v29.0.7
+        uses: tj-actions/changed-files@v41.0.0
         with:
           files: "**/*.ir"
           separator: "\n"
